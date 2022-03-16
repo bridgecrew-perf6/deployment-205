@@ -18,7 +18,7 @@ username = "ubuntu"
 agentForward = true
 sides = ["api","web"]
 path = "/var/www/deployment"
-redwood_web_server = true
+processNames = ["serve"]
 
 # If you have separate api and web servers:
 #
