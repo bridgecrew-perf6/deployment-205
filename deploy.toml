@@ -20,6 +20,7 @@ sides = ["api","web"]
 path = "/var/www/deployment"
 redwood_web_server = true
 
+
 # If you have separate api and web servers:
 #
 # [[servers]]
