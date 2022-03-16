@@ -1,18 +1,9 @@
 module.exports = {
   apps: [
     {
-      name: 'api',
+      name: 'serve',
       script: 'node_modules/.bin/rw',
-      args: 'serve api',
-      instances: 'max',
-      exec_mode: 'cluster',
-      wait_ready: true,
-      listen_timeout: 10000,
-    },
-    {
-      name: 'web',
-      script: 'node_modules/.bin/rw',
-      args: 'serve web',
+      args: 'serve',
       instances: 'max',
       exec_mode: 'cluster',
       wait_ready: true,
